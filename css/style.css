@@ -52,7 +52,8 @@ body {
 	text-decoration:none;
 	}
 .container_12 a:hover{
-	color:#03c0f6;
+	/* color:#03c0f6; */
+	color: white;
 	}
 
 /*Start Header*/
