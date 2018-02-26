@@ -1,0 +1,322 @@
+/*The Legend fonts*/
+@font-face {font-family:'Nastaliq'; src:url('fonts/Nastaliq.ttf');}
+@font-face {font-family:'BYekan'; src:url('fonts/BYekan.ttf');}	
+@font-face {font-family:'B_Mitra_Bold'; src:url('fonts/B_Mitra_Bold.ttf');}
+@font-face {font-family:'majallab'; src:url('fonts/majallab.ttf');} 
+@font-face {font-family:'majalla'; src:url('fonts/majalla.ttf');} 
+@font-face {font-family:'MRT_poster'; src:url('fonts/MRT_poster.ttf');}
+@font-face {font-family:'MRT_poster13'; src:url('fonts/MRT_poster13.ttf');}
+@font-face {font-family:'msuighub'; src:url('fonts/msuighub.ttf');}
+@font-face {font-family:'msuighur'; src:url('fonts/msuighur.ttf');}
+@font-face {font-family:'nazli'; src:url('fonts/nazli.ttf');}
+@font-face {font-family:'nazlib'; src:url('fonts/nazlib.ttf');}
+@font-face {font-family:'A-duel-Regular'; src:url('fonts/A-duel-Regular.ttf');}
+
+@font-face {font-family:'Sultan K Light'; src:url('fonts/Sultan K Light.ttf');}
+@font-face {font-family:'Sultan K Medium'; src:url('fonts/Sultan K Medium.ttf');}
+@font-face {font-family:'Sultan K Bold'; src:url('fonts/Sultan K Bold.ttf');}
+
+
+@font-face {font-family:'AdobeArabic-Regular'; src:url('fonts/AdobeArabic-Regular.ttf');}
+@font-face {font-family:'AdobeArabic-Bold'; src:url('fonts/AdobeArabic-Bold.otf');}	
+@font-face {font-family:'AdobeNaskh-Medium_0'; src:url('fonts/AdobeNaskh-Medium_0.otf');}	
+@font-face {font-family:'MyriadArabic-Regular_0'; src:url('fonts/MyriadArabic-Regular_0.otf');}	
+@font-face {font-family:'MyriadArabic-Bold_0'; src:url('fonts/MyriadArabic-Bold_0.otf');}	
+
+			
+@font-face {font-family:'Two Light_MRT'; src:url('fonts/Two Light_MRT.ttf');}
+@font-face {font-family:'Two Medium_MRT'; src:url('fonts/Two Medium_MRT.ttf');}
+@font-face {font-family:'Two Bold_MRT'; src:url('fonts/Two Bold_MRT.ttf');}
+
+@font-face {font-family:'Dinar One Light_MRT'; src:url('fonts/Dinar One Light_MRT.ttf');}
+@font-face {font-family:'Dinar One Medium_MRT'; src:url('fonts/Dinar One Medium_MRT.ttf');}
+@font-face {font-family:'Dinar Two Light_MRT'; src:url('fonts/Dinar Two Light_MRT.ttf');}
+@font-face {font-family:'Dinar Two Medium_MRT'; src:url('fonts/Dinar Two Medium_MRT.ttf');}
+
+@font-face {font-family:'Mj_Dinar Two Medium'; src:url('fonts/Mj_Dinar Two Medium.ttf');}
+@font-face {font-family:'Mj_Liner Screen'; src:url('fonts/Mj_Liner Screen.ttf');}
+
+/*Ends The Legend fonts*/
+
+body {
+	 background-color:#ECECEC;
+	 font-family:Tahoma;
+	 font-size:12px;
+	 color:#000000;
+     }
+#Table_body{background-color:#ECECEC; width:1024px;  height:auto;overflow: visible;}
+
+/*<!--Start_Top_Title_Bar--> */
+
+.Table_01{ width:1024px; height:auto; top:40;}
+
+.Table_01{border-top-left-radius:30px;
+		 border-top-right-radius:30px;
+  	position:relative;       
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.Table_01:before, .Table_01:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10;
+    bottom:10;
+    left:10px;
+    right:10px;
+} 
+.Table_01:after
+{
+	right:10px; 
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg); 
+       -moz-transform:skew(8deg) rotate(3deg);     
+        -ms-transform:skew(8deg) rotate(3deg);     
+         -o-transform:skew(8deg) rotate(3deg); 
+            transform:skew(8deg) rotate(3deg);
+}
+
+
+ /* Start_Top_Title_bar */  
+.header{ 
+         border-top-left-radius:30px;
+		 border-top-right-radius:30px;
+		 }
+.table-header h2{ font-family:'B_Mitra_Bold';
+font-weight:lighter; color:#2d89a3; padding:10px; 
+         border-top-left-radius:30px;
+		 border-top-right-radius:30px;}
+/* End_Top_Title_bar */ 			 	  
+			  
+/* Start_Content */  
+.content{background-color:#CCCCCC; color:#000000; 
+			   font-family:Tahoma; font-size:16px;
+			   border:solid thin; 
+			   border-top-left-radius:30px;
+		       border-top-right-radius:30px;
+			   border-color:#aac5d3; overflow: visible;
+			   border-bottom:none;
+			   border-top:none;
+			   padding-bottom:60px;
+			   }
+
+
+/*<!--Start_Admin/Clease/Teacher/Students-->*/
+ 
+#nav{ background:#4D4D4D;
+font-family:'B_Mitra_Bold';
+       font-weight: lighter;
+	   font-size:18px;}
+
+.admin{ text-decoration:none; color: #CCCCCC;}
+.admin:hover{color: #2d89a3;}
+
+.slide{ text-decoration:none; color:#CCCCCC;}
+.slide:hover{color: #2d89a3;}
+
+.upload{ text-decoration:none; color:#CCCCCC;}
+.upload:hover{color: #2d89a3;}
+
+.inbox{ text-decoration:none; color:#CCCCCC;}
+.inbox:hover{color: #2d89a3;}
+
+.class{ text-decoration:none; color:#CCCCCC;}
+.class:hover{color: #2d89a3;}
+
+.teacher{ text-decoration:none; color: #CCCCCC;}
+.teacher:hover{color: #2d89a3;}
+
+.image{ text-decoration:none; color: #CCCCCC;}
+.image:hover{color: #2d89a3;}
+
+.art-works{ text-decoration:none; color: #CCCCCC;}
+.art-works:hover{color: #2d89a3;}
+
+.top-10{ text-decoration:none; color: #CCCCCC;}
+.top-10:hover{color: #2d89a3;}
+
+
+.video{ text-decoration:none; color: #CCCCCC;}
+.video:hover{color: #2d89a3;}
+
+.picture{ text-decoration:none; color: #CCCCCC;}
+.picture:hover{color: #2d89a3;}
+/*<!--End_Admin/Clease/Teacher/Students-->*/
+
+.separator {min-height:500px; }
+#admin{ clear: both;}
+
+
+/*Management Buttons Styles*/
+.logout-btn{background: rgba(250,250,250,0.2);  width:400px; height:35px; 
+         margin-top:10px; line-height:30px;
+		 font-family:Tahoma; line-height:35px;
+		 font-size:16px; font-weight:lighter;
+		  box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 0px 5px 4px  rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.1);
+  background-color: rgba(9,164,188,0.6);
+}		 
+.logout-btn:hover{ background:rgba(9,164,188,0.5); color: #fff;
+			   box-shadow: 0px 0px 5px 4px rgba(9,164,188,0.9);
+		 -moz-box-shadow: 0px 0px 5px 4px  rgba(9,164,188,0.9);
+	  -webkit-box-shadow: 0px 0px 10px 4px rgba(9,164,188,0.9);
+	  cursor:pointer;
+}			 
+.logout-btn a {width:400px; height:35px; display:block; font-weight:lighter;}
+.md-trigger i {width:400px; height:35px; display:block; font-weight:lighter; font-style:normal;}
+
+#guide{ width:400px; height:35px; display:block; color:#FFF; background: rgba(9,164,188,0.6);}
+#guide:hover{ color:#FFF; background: rgba(250,250,250,0.0);}
+.changeUnP{margin-left:20px;}	
+/*Management Buttons Styles*/
+		 
+.login-legend{ width:285px; background:rgba(240,240,240,0.2);}	 
+.cont_text{font-family:'B_Mitra_Bold';
+	 font-size:20px; color:#666;}
+.cont_text span{
+	color:green;}
+	
+#admin .admin_text{
+	font-family:Georgia, serif;
+	font-size:30px;
+	clear:both;
+	}
+	
+.login_text{font-family:Tahoma;
+	 font-size:12px; margin-top:50px;}
+.edit-pass{ float:left; margin-left:23%;}
+span{color:#333666;}
+
+			  
+/*<!--Start_PHP_forms_table--> */
+/*Here are some styles mixed with the upload forms tables	*/		
+ /*start_Form_Style*/			  			  
+
+.form{background:rgba(0,0,0,0.5); margin-left:20px; margin-right:20px; 
+			   padding:30px; 
+			   border:solid thin #09a4bc;
+			   font-family:Tahoma;
+			   color:#CCCCCC;
+			   font-size:14px;}
+.login{background:rgba(0,0,0,0.5); margin-left:200px; margin-right:200px; margin-top:40px; 
+			   padding:20px; 
+			   height:220px;
+			   border:solid thin #09a4bc;
+			   font-family:Tahoma;
+			   color:#CCCCCC;
+			   font-size:14px;}
+
+legend{  background:#333;padding:6px;
+			   border:solid thin #09a4bc;
+			   font-family:Tahoma;
+	 font-size:12px; text-align:center;}
+.changeUnP{margin-left:20px;}			   
+/*--Place Holder--*/
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #636363;}
+input:-moz-placeholder, textarea:-moz-placeholder {color: #636363;}
+/*--Place Holder--*/
+			 
+
+.file{ width:200px; background-color:#333;}		 
+.form-input {color:#ccc; text-align:left;
+		  background: rgba(1,4,4,0.4);
+		  height: 33px;
+		  border: solid thin  #666;
+		  font-family:Tahoma;
+		  font-size: 14px;
+		  width:300px;}
+		  		 			  		  
+#textarea{ width:780px; max-width:780px; min-height:200px; margin-top:5px; margin-bottom:5px; font-family:Tahoma; font-size:14px;}	
+#button{ background: rgba(240,240,240,0.2); color: #333666;  width:200px; height:30px; 
+         border:solid thin #666; margin-top:10px; 
+		 font-family:'B_Mitra_Bold'; font-size:12px; font-size: medium;}
+#button:hover{background: rgba(240,240,240,0.6); color:#059AD8;}
+.button{ background: rgba(240,240,240,0.2); color: #00cccc;  width:300px; height:30px; 
+         border:solid thin rgba(240,240,240,0.0); margin-top:10px; 
+		 font-family:Tahoma;
+		 font-size:12px; font-size: medium;}
+.button:hover{background:rgba(45,137,163,0.8); color:#059AD8;}		 
+#button:hover{background: rgba(240,240,240,0.5); color:#059AD8;}
+#password{ text-decoration:none; color:#999; font-family:Tahoma;}
+#password:hover{ border-bottom:dotted thin #CCC;}
+.file{ width:200px; color:#ccc;}	
+#file_lable{ font-family:Tahoma;font-size:15px; color:#ccc; margin-left:80px; }
+/*Ending_Form_Style*/
+
+#delsuccess{ 
+      background-color:#063; 
+	  background-image:url(../images/del.png); 
+	  background-position:center top; background-repeat:no-repeat; 
+	  font-family:'B_Mitra_Bold', Tahoma; color:#CCC; font-size:20px; text-decoration:none; 
+	  padding-top:35px; padding-bottom:25px; margin-left:17px; min-width:990px; top:190px; border-top:20px solid #063; position: fixed;  
+			box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.5);
+	  -moz-box-shadow: 0px 0px 10px 4px  rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.0);
+}
+
+#error{ 
+      background-color: #F33; 
+	  background-image:url(../images/x.gif); 
+	  background-position:center top; background-repeat:no-repeat; 
+	  font-family:'B_Mitra_Bold', Tahoma; color:#fcc; font-size:20px; text-decoration:none; line-height:10px;
+	  padding-top:30px; padding-bottom:20px; margin-left:17px; min-width:990px; top:190px; border-top:15px solid #F33; position: fixed;  
+			box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.5);
+	  -moz-box-shadow: 0px 0px 10px 4px  rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.5);
+}
+#error span{ font-size:14px;  color:#333; font-size:16px; font-family:Tahoma;  line-height:20px; }
+#error i {font-size:16px; font-style:normal; line-height:20px; color:#fcc;  }
+
+
+#close{ border:thin #666; width:90px; height:25px; margin-top:20px;  color:#000; font-family:Tahoma;}
+#close:hover{color:#FFF; background:#999;}
+ 
+/* Start_sql_Form_table_style*/
+
+#sql_table{ margin-left:17px; margin-right:17px; font-family:Tahoma; max-width:990px; min-width:990px; overflow: hidden;} 
+.sql_ctable-td{ border:thin #666666; font-family:Tahoma;  font-size:13px; border-style:solid; text-align:center; background:rgba(0,0,0,0.3); color:#FFF;}
+ 	  
+.sql_ctable-th{ color:#00CCCC; background:rgba(5,5,5,0.6);line-height:20px; font-family:'B_Mitra_Bold';font-weight:lighter;}
+#title{ color:#00CCCC; font-weight:lighter;}
+#title:hover{color:#FFF; text-decoration:underline;}
+
+#select{ background:rgba(0,100,0,0.1);}
+#id{ background:rgba(5,5,5,0.3);} 
+#image{ padding:0px; background:rgba(10,10,10,0.3);}
+#name{ background:rgba(10,10,10,0.3);}	
+#subject { background:rgba(10,10,10,0.3);}
+#msg{ background:rgba(10,10,10,0.9); max-width:200px; max-height:30px; height:25px; overflow:hidden;}
+.msg{ background:rgba(10,10,10,0.9); max-width:200px; max-height:30px; height:25px; overflow:hidden;}
+#mail{ text-align:start; text-indent:30px; padding:30px;}
+#mail_msg{background:rgba(50,40,40,0.6); 
+          font-family:'B_Mitra_Bold';
+		  font-size:22px; font-weight:lighter; color:#09a4bc; }
+#mail p{ padding:15px; font-family:Tahoma; text-align:start; direction:rtl;  font-size:16px; color:#999; float:left; }
+
+.mail{ background:#FFF;  margin:20px;padding:20px;}
+.mail p{padding:20px; color:#ccc; font-family:Tahoma; font-size:16px;}
+#del-n-edit{font-family:Tahoma;}
+#des{  background:rgba(10,10,10,0.3); text-align: start; }
+#update{ background:rgba(0,100,0,0.1);}
+#delete{ background:rgba(100,0,0,0.1);}
+/*--Actions Style--*/  
+
+/*--Table_forms_borders--*/  
+.bordert{border-top: solid thin #666;}
+.borderb{border-bottom: solid thin #666;}
+.borderl{border-left: solid thin #666;}
+.borderr{border-right: solid thin #666;}
+
+#bordert{border-top: solid thin #666;}
+#borderb{border-bottom: solid thin #666;}
+#borderl{border-left: solid thin #666;}
+#borderr{border-right: solid thin #666;}
+.delete{ border: solid thin #666; border-top: none;}
+/*--Table_forms_borders--*/
+/*<!--End_PHP_forms_table--> */

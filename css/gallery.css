@@ -1,0 +1,280 @@
+/* CSS Document */
+/*Featured Slider*/
+#advertize{
+	background: url(../images/add-gallery.jpg) no-repeat center;
+	height:100px;
+	}
+	
+#gallery-header{
+	margin-top:20px;
+	margin-bottom:10px;
+	clear:both;
+	}
+#gallery-header .metadata{
+	color:#666; 
+	font-size:14px;
+	font-family:'B_Mitra_Bold';
+	}
+#gallery-header .metadata #fa-date {
+	font-style:normal;
+	}
+#gallery-header .metadata #eng-date {
+	font-family:Georgia;
+	font-size:15px;
+	font-style:normal;
+	direction:ltr;
+	}
+#gallery-header p{
+	margin-top:-10px;
+	padding:10px;
+	font-family:'majallab-','A-duel-Regular-', 'BYekan-','Two Light_MRT-','Two Medium_MRT-','Two Bold_MRT-', 
+   'Dinar One Medium_MRT-','Dinar Two Medium_MRT-','Mj_Dinar Two Medium-','AdobeArabic-Regular-',
+   'B_Mitra_Bold',
+    Tahoma;
+    overflow: hidden;
+	font-size:16px;
+	font-weight:normal;
+	color:#333666;
+	}
+#gallery_slide{
+	display:block;
+	width:940px;
+	height:537px;
+	margin:0;
+	margin-left:10px;
+	padding-bottom:0;
+	overflow:hidden;
+	}
+
+#gallery_slide a{
+	color:#FFFFFF;
+	background-color:transparent;
+	}
+
+#gallery_slide a, #gallery_slide ul, #gallery_slide img{
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+	list-style:none;
+	text-decoration:none;
+	}
+
+#gallery_slide ul{margin:15px 0 0 0;}
+
+#gallery_slide h1, #gallery_slide h2, #gallery_slide h3, #gallery_slide h4, #gallery_slide h5, #gallery_slide h6, #gallery_slide p{
+	margin:0 0 4px 0;
+	padding:0;
+	line-height:normal;
+	font-family:'B_Mitra_Bold',
+    Tahoma;
+    overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size:16px;
+	font-weight:normal;
+	text-align:start;
+	}
+
+.gallery{color:#000; background: #ECECEC; padding:10px;}
+
+.loader{background:url("../images/galleryviewthemes/loader.gif") center center no-repeat;}
+
+.panel .panel-overlay, .panel .overlay-background{height:20px; padding:10px;}
+.panel .overlay-background{background: #222;}
+.panel .panel-overlay{color: white; font-size: 0.7em;}
+
+.filmstrip{margin:15px 0 0 0; padding:0;}
+.filmstrip .img_wrap{margin:0; padding:0;}
+
+.frame{}
+.frame .img_wrap{border: 1px solid #aaa;}
+.frame.current .img_wrap{border-color: #000;}
+.frame img{border: none;}
+.frame .caption{text-align: center; color: #888;}
+.frame.current .caption{color: #000;}
+
+.pointer{border-color: #000;}
+
+
+/*Sub-Galleries*/
+
+.sub-gallery {
+	background-color:#ECECEC;
+	margin-bottom:10px;
+	clear: right;
+	}
+.sub-gallery #overlay{
+	position: relative;
+	padding:0px;
+	height:100px;
+	clear:both;
+	margin-top:-100px;
+	}
+.sub-gallery #overlay p {
+	background:rgba(0,0,0,0.6);
+	clear:both;
+	bottom:0;
+	padding:5px;
+	font-size:18px;
+	line-height:20px;
+	flex-wrap:wrap-reverse;
+	position:absolute;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	font-family:'B_Mitra_Bold';
+	}
+.sub-gallery #overlay p span{
+	font-family:'B_Mitra_Bold';
+	font-size:14px;
+	color:#03c0f6;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	clear: inherit;
+	}
+.sub-gallery a {
+	color: #ECECEC;
+	}
+
+.sub-gallery
+{
+  	position:relative;       
+    -webkit-box-shadow:0 1px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+       -moz-box-shadow:0 1px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+            box-shadow:0 1px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+.sub-gallery:before, .sub-gallery:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+} 
+.sub-gallery:after
+{
+	right:10px; 
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg); 
+       -moz-transform:skew(8deg) rotate(3deg);     
+        -ms-transform:skew(8deg) rotate(3deg);     
+         -o-transform:skew(8deg) rotate(3deg); 
+            transform:skew(8deg) rotate(3deg);
+}	
+
+/*Cartoons Gallery Styles*/
+#cartoon-gallery-header{
+	background:#ECECEC;
+	margin-top:20px;
+	margin-bottom:10px;
+	text-align:right;
+	clear:both;
+	}
+#cartoon-gallery-header h1{
+	padding:10px;
+	font-family:'majallab-','A-duel-Regular-', 'BYekan-','Two Light_MRT-','Two Medium_MRT','Two Bold_MRT-', 
+   'Dinar One Medium_MRT','Dinar Two Medium_MRT-','Mj_Dinar Two Medium','AdobeArabic-Regular-',
+   'B_Mitra_Bold',
+    Tahoma;
+	color:#059AD8;
+    overflow: hidden;
+	font-size:20px;
+	font-weight:normal;
+	}
+#cartoon-gallery-header p{
+	margin-top:-10px;
+	padding:10px;
+	font-family:'B_Mitra_Bold',Tahoma;
+    overflow: hidden;
+	font-size:16px;
+	font-weight:normal;
+	color:#333666;
+	}
+
+.cartoon-gallery{
+	margin:10px;
+	margin-bottom:50px;
+	position:relative;
+	}
+
+.cartoon-gallery ul li {  
+	padding:0; border:solid thin #CCCCCC;
+	margin:5px;
+	list-style:none;
+	overflow:hidden;
+	clear: inherit;
+}
+.cartoon-gallery ul {
+	margin-left:10px;
+	}
+#cartoon-gallery li {
+	width: 100px;
+	height: 67px;
+	float: left;
+	border: 1px solid #FFFFFF;
+	padding: 0;
+	background:#999;}
+
+
+#cartoon-gallery li
+{
+  	position:relative;       
+    -webkit-box-shadow:0 1px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+       -moz-box-shadow:0 1px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+            box-shadow:0 1px 8px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+}
+#cartoon-gallery li:before, #cartoon-gallery li:after
+{
+	content:"";
+    position:absolute; 
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:0;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+} 
+#cartoon-gallery li:after
+{
+	right:10px; 
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg); 
+       -moz-transform:skew(8deg) rotate(3deg);     
+        -ms-transform:skew(8deg) rotate(3deg);     
+         -o-transform:skew(8deg) rotate(3deg); 
+            transform:skew(8deg) rotate(3deg);
+}
+
+
+
+
+	
+#cartoon-gallery li a {display: block;}
+
+#cartoon-gallery li a img:hover{opacity:0.5;}
+
+#gal-seperator {
+	min-height:10px;
+	clear:both;
+	}
+.pagination {
+	margin:10px;
+	margin-top:30px;
+	clear:both;
+	}
+
+
+
+
