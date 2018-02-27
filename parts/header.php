@@ -115,3 +115,6 @@
     </nav><!--End Navigation Bar-->
 </div><!--End head container-->
 </header><!--End full width header-->
+<?php
+  $root = $_SERVER['DOCUMENT_ROOT']. '/aikhf2/AIKHF2/';
+?>
